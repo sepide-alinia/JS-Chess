@@ -1,0 +1,67 @@
+
+body{
+    background-color: rgb(112, 112, 112);
+    height: 100vh;
+}
+
+#gameBoard{
+    width: 800px;
+    height: 800px;
+    border: solid black 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    box-shadow:  0px 0px 33px 16px rgba(0,0,0,0.75) ;
+}
+
+
+.square {
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+.square svg {
+    height: 90px;
+    width: 90px;
+    margin: 5px;
+    position: relative;
+    z-index: -9;
+
+}
+
+path{
+    position: relative;
+    z-index: -10;
+
+}
+.piece{
+    position: relative;
+    z-index: 9;
+}
+
+
+
+.btn{
+    margin-top: 2rem;
+}
+
+.silver {
+    background-color: rgb(190, 190, 189);
+}
+.grey {
+    background-color: rgb(80, 80, 80);
+}
+
+.black{
+    fill: rgb(0, 0, 0);
+}
+
+.white{
+    fill: rgb(255, 255, 255);
+}
+
+p{
+    font-size: xx-large;
+    text-align: center;
+}
